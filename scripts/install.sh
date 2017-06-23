@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 plist="com.googlecode.iterm2.plist"
-plistUrl="https://github.com/sorin-popescu/iTerm.git/master/$plist"
+plistUrl="https://raw.githubusercontent.com/sorin-popescu/iTerm/master/$plist"
 work_dir="$HOME/workspace/iterm"
 newPlist="${work_dir}/${plist}"
 installedPlist="$HOME/Library/Preferences/$plist"
