@@ -24,6 +24,6 @@ if [ -d "$work_dir" ]; then
    add
 else
     log "Create ${work_dir}..."
-    mkdir "$work_dir"
+    mkdir -p "$work_dir"
     add
 fi
